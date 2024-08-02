@@ -1,21 +1,33 @@
 {
-  "name": "vitepress-theo-package",
+  "name": "tmfe",
   "version": "1.0.0",
-  "description": "A collection of SCSS files",
-  "main": "dist/vitepress-theo-package.umd.js",
-  "module": "dist/vitepress-theo-package.es.js",
-  "scripts": {
-    "build:all": "sass scss/all.scss dist/all.css",
-    "build:vue": "vite build",
-    "build": "npm-run-all build:all build:vue"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theo-Messi/tmfe.git"
   },
+  "bugs": {
+    "url": "https://github.com/Theo-Messi/tmfe/issues"
+  },
+  "homepage": "https://github.com/Theo-Messi/tmfe",
+  "author": "Theo-Messi",
+  "license": "MIT",
   "keywords": [
     "scss",
     "sass",
-    "styles"
+    "styles",
+    "vue",
+    "vite",
+    "typescript",
+    "vitepress"
   ],
-  "author": "Theo-Messi",
-  "license": "MIT",
+  "main": "dist/tmfe.umd.js",
+  "module": "dist/tmfe.es.js",
+  "scripts": {
+    "build:all": "sass scss/all.scss dist/all.css",
+    "build:vue": "vite build",
+    "build": "npm-run-all build:all build:vue",
+    "release": "bumpp && pnpm -r publish"
+  },
   "devDependencies": {
     "@types/node": "^18.11.9",
     "@vitejs/plugin-vue": "^5.1.2",
@@ -27,8 +39,10 @@
     "vue": "^3.4.35"
   },
   "files": [
-    "dist/",
     "scss/",
     "vue/"
-  ]
+  ],
+  "dependencies": {
+    "bumpp": "^9.4.2"
+  }
 }

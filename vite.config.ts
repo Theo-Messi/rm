@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: './vue/index.ts',
-      name: 'vitepress-theo-package',
-      fileName: (format) => `vitepress-theo-package.${format}.js`
+      name: 'tmfe',
+      fileName: (format) => `tmfe.${format}.js`
     },
     rollupOptions: {
       external: ['vue', 'vitepress'],
