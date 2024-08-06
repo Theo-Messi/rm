@@ -1,7 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
-import '@fortawesome/fontawesome-free/css/all.css'
-import '../../../scss/all.scss'
+import '../../../package/scss/all.scss'
 import {
   DocBox,
   DocLinks,
@@ -10,7 +9,7 @@ import {
   Announcement,
   DocAsideLogo,
   HomeUnderline
-} from '../../../vue'
+} from '../../../package/vue'
 import { banners } from '../data/AsideData'
 export default {
   extends: DefaultTheme,

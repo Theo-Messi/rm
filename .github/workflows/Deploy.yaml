@@ -34,7 +34,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: test/.vitepress/dist
+          publish_dir: docs/.vitepress/dist
           cname: tmfe.theojs.cn
 
       - name: Set DATE environment variable
