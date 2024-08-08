@@ -2,7 +2,7 @@ const axios = require('axios')
 const { execSync } = require('child_process')
 
 // 环境变量
-const packagesName = 'tmfe'
+const packagesName = '@theo-messi/tm-fe'
 const barkUrl = process.env.BARK_KEY
 
 async function getNpmDownloads(packagesName) {

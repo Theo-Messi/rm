@@ -10,7 +10,7 @@ hero:
     src: https://cdn1.iconfinder.com/data/icons/prettyoffice8/256/Theme.png
     alt: Theme
   prelink:
-    title: '<i class="fa-solid fa-bolt" style="color: #63E6BE;"></i> 快速开始<div style="text-align: right; font-weight: bold;"><i class="fas fa-pnpm" style="color: #FFD43B;"></i>pnpm add tmfe</div>'
+    title: '<i class="fa-solid fa-bolt" style="color: #63E6BE;"></i> 快速开始<div style="text-align: right; font-weight: bold;"><i class="fas fa-pnpm" style="color: #FFD43B;"></i>pnpm add @theo-messi/tm-fe</div>'
     # link: https://doc.theojs.cn/
     # target: _blank
   actions:

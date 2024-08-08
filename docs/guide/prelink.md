@@ -12,7 +12,7 @@ title: 首页公告栏
 // .vitepress/theme/index.ts
 
 import DefaultTheme from 'vitepress/theme'
-import { Announcement } from 'tmfe'
+import { Announcement } from '@theo-messi/tm-fe'
 import { h } from 'vue'
 
 export default {
@@ -39,7 +39,7 @@ hero:
   text: 'Enhanced '
   tagline: 用于VitePress主题美化和集成Vue功能组件
   prelink:// [!code ++]
-    title: '快速开始<div style="text-align: right; font-weight: bold;"><i class="fas fa-pnpm" style="color: #FFD43B;"></i>pnpm add tmfe</div>'// [!code ++]
+    title: '快速开始<div style="text-align: right; font-weight: bold;"><i class="fas fa-pnpm" style="color: #FFD43B;"></i>pnpm add @theo-messi/tm-fe</div>'// [!code ++]
     # link: https://doc.theojs.cn/// [!code ++]
     # target: _blank// [!code ++]
 ---

@@ -26,7 +26,7 @@ title: 视频组件
 // .vitepress/theme/index.ts
 
 import DefaultTheme from 'vitepress/theme'
-import { DocVideoLink } from 'tmfe' // [!code ++]
+import { DocVideoLink } from '@theo-messi/tm-fe' // [!code ++]
 
 export default {
   extends: DefaultTheme,
@@ -37,5 +37,5 @@ export default {
 ```
 
 ::: tip
-点击查看[目前支持的链接](https://github.com/Theo-Messi/tmfe/blob/main/packages/vue/videoDomains.ts),如有补充欢迎提交!
+点击查看[目前支持的链接](https://github.com/Theo-Messi/tm-fe/blob/main/packages/vue/videoDomains.ts),如有补充欢迎提交!
 :::

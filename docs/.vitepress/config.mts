@@ -47,7 +47,7 @@ export default defineConfig({
       height: 24
     },
     editLink: {
-      pattern: 'https://github.com/Theo-Messi/tmfe/blob/main/docs/:path',
+      pattern: 'https://github.com/Theo-Messi/tm-fe/blob/main/docs/:path',
       text: '为此页提供修改建议'
     },
     // 目录设置
@@ -87,11 +87,11 @@ export default defineConfig({
       { text: '指南', link: '/guide/getting-started' },
       {
         text: '提交反馈',
-        link: 'https://github.com/Theo-Messi/tmfe/issues'
+        link: 'https://github.com/Theo-Messi/tm-fe/issues'
       },
       {
         text: pkg.version,
-        link: 'https://github.com/Theo-Messi/tmfe/releases'
+        link: 'https://github.com/Theo-Messi/tm-fe/releases'
       }
     ],
     sidebar: {
@@ -144,8 +144,8 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Theo-Messi/tmfe' },
-      { icon: 'npm', link: 'https://www.npmjs.com/package/tmfe' }
+      { icon: 'github', link: 'https://github.com/Theo-Messi/tm-fe' },
+      { icon: 'npm', link: 'https://www.npmjs.com/package/tm-fe' }
     ],
     search: {
       provider: 'local',

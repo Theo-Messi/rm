@@ -16,7 +16,7 @@ title: 首页下划线
 // .vitepress/theme/index.ts
 
 import DefaultTheme from 'vitepress/theme'
-import { HomeUnderline } from 'tmfe' // [!code ++]
+import { HomeUnderline } from '@theo-messi/tm-fe' // [!code ++]
 
 export default {
   extends: DefaultTheme,

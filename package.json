@@ -1,9 +1,9 @@
 {
-  "name": "tmfe",
-  "version": "2.3.0",
-  "repository": "Theo-Messi/tmfe",
+  "name": "@theo-messi/tm-fe",
+  "version": "2.3.2",
+  "repository": "Theo-Messi/tm-fe",
   "homepage": "https://tmfe.theojs.cn/",
-  "funding": "https://github.com/Theo-Messi/tmfe?sponsor=1",
+  "funding": "https://github.com/Theo-Messi/tm-fe?sponsor=1",
   "author": "Theo-Messi",
   "license": "MIT",
   "keywords": [
@@ -48,7 +48,8 @@
   },
   "files": [
     "theme/",
-    "vue/"
+    "vue/",
+    "readme.md"
   ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",

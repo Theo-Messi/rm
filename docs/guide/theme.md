@@ -5,16 +5,16 @@ title: 主题配置文件
 ```ts
 // theme/index.ts
 
-import 'tmfe/theme'
+import '@theo-messi/tm-fe/theme'
 
 // 也可单独引入
-import 'tmfe/scss/colors.scss'
-import 'tmfe/scss/doc.scss'
+import '@theo-messi/tm-fe/scss/colors.scss'
+import '@theo-messi/tm-fe/scss/doc.scss'
 ...
 ```
 
 :::tip
-具体可查看所有主题文件 [tmfe/theme](https://github.com/Theo-Messi/tmfe/tree/main/packages/scss)
+具体可查看所有主题文件 [tm-fe/theme](https://github.com/Theo-Messi/tm-fe/tree/main/packages/scss)
 :::
 
 ## 示例

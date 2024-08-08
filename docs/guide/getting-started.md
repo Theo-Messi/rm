@@ -12,15 +12,15 @@ title: 快速开始
 ::: code-group
 
 ```sh [pnpm]
-pnpm add tmfe
+pnpm add @theo-messi/tm-fe
 ```
 
 ```sh [npm]
-npm install tmfe
+npm install @theo-messi/tm-fe
 ```
 
 ```sh [yarn]
-yarn add tmfe
+yarn add @theo-messi/tm-fe
 ```
 
 :::

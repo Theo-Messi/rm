@@ -48,7 +48,7 @@ export const Aside_Data = [
 
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue' // [!code ++]
-import { DocAsideLogo } from 'tmfe' // [!code ++]
+import { DocAsideLogo } from '@theo-messi/tm-fe' // [!code ++]
 import { Aside_Data } from '../data/AsideData' // [!code ++]
 export default {
   extends: DefaultTheme,
